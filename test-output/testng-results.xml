@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35802" started-at="2023-02-12T06:28:32Z" finished-at="2023-02-12T06:29:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35802" started-at="2023-02-12T06:28:32Z" finished-at="2023-02-12T06:29:08Z">
+      <class name="ecommerce_automation.ecomm_automation.SubmitOrderTest">
+        <test-method status="PASS" signature="submitOrder()[pri:0, instance:ecommerce_automation.ecomm_automation.SubmitOrderTest@3c153a1]" name="submitOrder" duration-ms="33255" started-at="2023-02-12T11:58:32Z" finished-at="2023-02-12T11:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="OrderHistory()[pri:0, instance:ecommerce_automation.ecomm_automation.SubmitOrderTest@3c153a1]" name="OrderHistory" duration-ms="2513" started-at="2023-02-12T11:59:06Z" depends-on-methods="ecommerce_automation.ecomm_automation.SubmitOrderTest.submitOrder" finished-at="2023-02-12T11:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+      </class> <!-- ecommerce_automation.ecomm_automation.SubmitOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
