@@ -6,9 +6,8 @@ public class Summation {
 
 	@Test(groups= {"Sum test"})
 	public void sum(int a, int b) {
-		System.out.println("Demo Sum Method");
-		System.out.println("Demo Sum Method");
-		System.out.println("Demo Sum Method");
-		System.out.println("Demo Sum Method");
+		
+		int s= a+b;
+		System.out.println(s);
 	}
 }
