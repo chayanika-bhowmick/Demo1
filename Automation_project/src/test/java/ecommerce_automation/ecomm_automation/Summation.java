@@ -5,9 +5,12 @@ import org.testng.annotations.Test;
 public class Summation {
 
 	@Test(groups= {"Sum test"})
-	public void sum(int a, int b) {
+	public void sum(int a, int b,int c) {
 		
-		int s= a+b;
+		int s= a+b+c;
+		System.out.println(s);
+		System.out.println(s);
+		System.out.println(s);
 		System.out.println(s);
 	}
 }
