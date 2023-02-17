@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20976" started-at="2023-02-16T22:00:52 IST" finished-at="2023-02-16T22:01:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20976" started-at="2023-02-16T22:00:52 IST" finished-at="2023-02-16T22:01:13 IST">
+      <class name="com.pageobjectmodel.testng_framework.AlertTest">
+        <test-method status="PASS" signature="alertTest()[pri:0, instance:com.pageobjectmodel.testng_framework.AlertTest@7d70d1b1]" name="alertTest" duration-ms="20866" started-at="2023-02-16T22:00:52 IST" finished-at="2023-02-16T22:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTest -->
+      </class> <!-- com.pageobjectmodel.testng_framework.AlertTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
