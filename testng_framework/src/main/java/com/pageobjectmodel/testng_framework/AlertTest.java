@@ -1,5 +1,8 @@
 package com.pageobjectmodel.testng_framework;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -35,11 +38,30 @@ public class AlertTest {
 		System.out.println(text);
 		
 		Assert.assertEquals(text,"Congratulations! You must have the proper credentials.");
-		
-		
-		
-		
-
 	}
+	
+	@Test
+	public void remove_duplicate() {
+		
+		String input = "Jibanika Bhowmick";
+		String str = input.toLowerCase();
+		String str1[] = str.split(" ");
+		
+		String final_str = str1[0].concat(str1[1]);
+		//System.out.println(final_str);
+		
+		String[] arr = final_str.split("");
+		
+		ArrayList<String> arrL = new ArrayList<String>(Arrays.asList(arr));
+		
+		//System.out.println(arrL);
+		
+		HashSet hs = new HashSet();
+		
+		hs.addAll(arrL);
+		
+		System.out.println(hs);
+	}
+	
 
 }
