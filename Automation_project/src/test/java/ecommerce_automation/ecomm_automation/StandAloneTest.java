@@ -1,4 +1,4 @@
-package ecommerce_automation.ecomm_automation;
+ package ecommerce_automation.ecomm_automation;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -25,9 +25,7 @@ public class StandAloneTest {
 		
 		String product1 = "iphone 13 pro";
 		
-		// added one line for test
-		// 2nd line testing
-		// 3rd line testing
+		// Launch chrome browser
 	
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
