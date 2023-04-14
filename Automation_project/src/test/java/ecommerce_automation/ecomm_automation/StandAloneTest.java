@@ -25,7 +25,8 @@ public class StandAloneTest {
 		
 		String product1 = "iphone 13 pro";
 		
-	
+	// changes
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/client");
