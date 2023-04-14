@@ -19,3 +19,5 @@
 2023-04-14 10:22:20,009 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Git_Rob\testng_framework\src\test\resources
 2023-04-14 10:23:45,967 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-04-14 10:23:45,967 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Git_Rob\Automation_project\src\main\resources
+2023-04-14 10:23:45,971 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-14 10:23:45,972 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Git_Rob\Automation_project\src\test\resources
