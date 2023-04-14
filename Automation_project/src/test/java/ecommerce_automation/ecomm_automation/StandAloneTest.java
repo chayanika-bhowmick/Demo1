@@ -25,7 +25,8 @@ public class StandAloneTest {
 		
 		String product1 = "iphone 13 pro";
 		
-		// Launch chrome browser
+		// Launch chrome browser and hit the url
+		// Download chromedriver at runtime
 	
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
